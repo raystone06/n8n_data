@@ -67,4 +67,4 @@ Accédez à votre instance n8n via `http://votre-serveur:5678` et vérifiez que 
 
 ## Informations sur la sauvegarde automatique
 
-Ce dépôt est mis à jour automatiquement par un script cron qui s'exécute sur le serveur n8n. Pour configurer un système similaire de sauvegarde automatique sur GitHub, consultez les détails dans le script [backup-n8n.sh](https://github.com/raystone06/n8n_data/backup-n8n.sh).
+Ce dépôt est mis à jour automatiquement par un script cron qui s'exécute sur le serveur n8n. Pour configurer un système similaire de sauvegarde automatique sur GitHub, consultez les détails dans le script [backup-n8n.sh](https://github.com/raystone06/n8n_data/git-save.sh).
