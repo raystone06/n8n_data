@@ -136,8 +136,11 @@ if [[ $(git status --porcelain) ]]; then
   git add .
   git commit -m "$COMMIT_MSG"
   
+  # Récupérer les changements distants avant de pousser
+  git pull --rebase origin main
+  
   # Essayer de pousser vers GitHub
-  if git push -u origin main; then
+  if git push origin main; then
     echo "Sauvegarde réussie vers GitHub à $(date)"
   else
     echo "Erreur lors du push vers GitHub à $(date). Vérifiez vos identifiants."
