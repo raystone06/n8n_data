@@ -1,0 +1,2 @@
+{"__type":"$$EventMessageAudit","id":"8fbe7f8c-02d5-4170-9140-51b6ebb47718","ts":"2025-04-09T14:06:40.479+00:00","eventName":"n8n.audit.user.login.success","message":"n8n.audit.user.login.success","payload":{"userId":"f09a5ba0-4c12-4604-957a-f72b6910fc06","_email":"raymond.laurent@synelia.tech","_firstName":"Laurent","_lastName":"Raymond","globalRole":"global:owner","authenticationMethod":"email"}}
+{"__type":"$$EventMessageConfirm","confirm":"8fbe7f8c-02d5-4170-9140-51b6ebb47718","ts":"2025-04-09T14:06:40.498+00:00","source":{"id":"0","name":"eventBus"}}
