@@ -1,6 +1,6 @@
 # Sauvegarde n8n
 
-Ce dépôt contient les sauvegardes automatiques des données de l'instance n8n. La dernière sauvegarde a été effectuée le **10 April 2025 à 09:01:01 (UTC)**.
+Ce dépôt contient les sauvegardes automatiques des données de l'instance n8n. La dernière sauvegarde a été effectuée le **10 April 2025 à 09:02:01 (UTC)**.
 
 ## Procédure de restauration des données
 
