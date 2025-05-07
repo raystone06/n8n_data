@@ -1,0 +1,32 @@
+volumes:
+  n8n_data:
+    external: true
+    name: n8n_data
+
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:1.91.1
+    container_name: n8n
+    restart: always
+    ports:
+      - 5678:5678
+    volumes:
+      - n8n_data:/home/node/.n8n
+    user: "0:0" 
+    environment:
+      - GENERIC_TIMEZONE=Africa/Abidjan
+      - TZ=Africa/Abidjan
+      - N8N_PORT=5678
+      - NODE_ENV=production
+      - N8N_SECURE_COOKIE=false
+      - EXPRESS_TRUST_PROXY=true
+      - N8N_TRUST_PROXY_HEADER=true
+      - N8N_PUSH_BACKEND=websocket
+      - N8N_CORS_BYPASS=true
+      - N8N_METRICS=false
+      - N8N_ALLOW_ORIGINS=https://ralau-n8n.dev01.ovh.smile.ci
+      - N8N_RUNNERS_ENABLED=true
+      - N8N_HOST=ralau-n8n.dev01.ovh.smile.ci
+      - WEBHOOK_URL=https://ralau-n8n.dev01.ovh.smile.ci
+      - N8N_PROTOCOL=https
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
