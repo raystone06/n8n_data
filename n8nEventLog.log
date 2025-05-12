@@ -2910,3 +2910,5 @@
 {"__type":"$$EventMessageConfirm","confirm":"ac594802-2816-4048-838a-c22d182f6861","ts":"2025-05-12T09:25:28.147+00:00","source":{"id":"0","name":"eventBus"}}
 {"__type":"$$EventMessageAudit","id":"21ee1253-623e-4bf3-aaff-b71064eb6909","ts":"2025-05-12T09:25:48.583+00:00","eventName":"n8n.audit.user.login.failed","message":"n8n.audit.user.login.failed","payload":{"authenticationMethod":"email","userEmail":"djiguiba.magassa@smile.ci","reason":"wrong credentials"}}
 {"__type":"$$EventMessageConfirm","confirm":"21ee1253-623e-4bf3-aaff-b71064eb6909","ts":"2025-05-12T09:25:48.583+00:00","source":{"id":"0","name":"eventBus"}}
+{"__type":"$$EventMessageAudit","id":"0a4488c7-922b-4010-a29f-1445dfe20ef1","ts":"2025-05-12T09:26:02.834+00:00","eventName":"n8n.audit.user.login.failed","message":"n8n.audit.user.login.failed","payload":{"authenticationMethod":"email","userEmail":"djiguiba.magassa@synelia.tech","reason":"wrong credentials"}}
+{"__type":"$$EventMessageConfirm","confirm":"0a4488c7-922b-4010-a29f-1445dfe20ef1","ts":"2025-05-12T09:26:02.835+00:00","source":{"id":"0","name":"eventBus"}}
